@@ -1,0 +1,153 @@
+@media screen and (max-width:1024px){
+
+.MENU{
+    padding-top:8px;
+    padding-right: 20px;
+    display: block;
+}
+
+  
+/* Home Container */
+
+.logo img{
+    width: 32.5px;
+    height: 32.5px;
+}  
+
+.teamName{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-left: 5px;
+    padding-top: 20px;
+}
+
+#team{
+    padding-right: 5px;
+    color:white;
+    font-size: 12px;
+    line-height: 10px;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+
+.navBar{
+   display: none;
+}
+
+.navBar a{
+    display: none;
+}
+
+#just{
+    border-top: 1px solid white;
+    padding-top: 5px;
+}
+
+#life{
+    padding-bottom: 5px;
+    border-bottom: 1px solid white;
+}
+
+#didYou{
+    font-size: 14px;
+}
+
+#Justcan{
+    font-size: 30px;
+    font-weight: 600px;
+}
+
+.heroTxt span{
+    line-height: 45px;
+}
+
+/* This is the Div containing "Do you know" */
+.doYou{
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.doYouImg{
+    padding-top: 60px;
+}
+
+.doYouImg img{
+    width: 80%;
+}
+
+/* This is the Div containing "About Us" */
+.pastor{
+    padding-top: 60px;
+}
+
+.pastor img{
+    width: 99%;
+}
+
+
+
+
+/* This is the Div containing "HOW TO GET INVOLVED" */
+
+.howTo{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 90px;
+    padding-left: 40px;
+    width: 100%;   
+}
+
+.getIn{
+    width: 100%;
+}
+
+.ourNeeds{
+    margin-top: 100px;
+    width: 100%;
+}
+
+
+/* This is the div containing the bank account details */
+.give{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+.giveImg img{
+    display: none;
+}
+
+.detail{
+    width: 100%;   
+ }
+
+
+
+ .detail p{
+    padding-top: 13px;
+}
+
+
+/* This is the div that contains "contact us details" container*/
+
+.contactDetails{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact{
+    padding-left: 40px;
+}
+
+
+
+}
