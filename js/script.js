@@ -1,5 +1,18 @@
+/**  ***************** SCRIPT  FOR POPUP *************  */
 
+function showPopup(){
+    document.getElementById('popupContainer').style.display = 'block';
+    document.getElementById('body').style.opacity = '0.12';
+}
+
+function closePopup(){
+    document.getElementById('popupContainer').style.display = 'none';
+    document.getElementById('body').style.opacity = '1';
+}
  
+window.onload = showPopup;
+
+
  /**  *****************Beginning Of SCRIPT  FOR GALLERY SLIDER  *************  */
  
  /* Card Slider - Swiper */
