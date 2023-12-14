@@ -1,5 +1,11 @@
 @media screen and (max-width:600px){
 
+
+.upcomingProg img{
+	width: 70%;
+}
+
+    
 .mySidenav a{
     font-size: 11px;
  }
